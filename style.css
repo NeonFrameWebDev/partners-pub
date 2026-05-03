@@ -879,6 +879,7 @@ h3 {
   .staff-card__name { font-size: 0.85rem; }
 
   .reviews-grid { grid-template-columns: 1fr 1fr; }
+  .reviews-grid .review-card:last-child:nth-child(odd) { grid-column: 1 / -1; max-width: 50%; margin-inline: auto; }
 
   .contact-grid {
     flex-direction: row;
