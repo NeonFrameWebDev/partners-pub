@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Partner's Pub and Grill | Stevens Point, WI | Since 1977</title>
+<meta name="description" content="Stevens Point's favorite local tavern since 1977. Good drinks, good food, and a crowd that knows your name. Open 365 days a year at 2600 Stanley St.">
+<meta property="og:title" content="Partner's Pub and Grill | Stevens Point, WI">
+<meta property="og:description" content="Stevens Point's favorite local tavern since 1977. Open 365 days a year.">
+<meta property="og:image" content="https://neonframewebdev.github.io/partners-pub/assets/interior_4_group.jpg">
+<meta property="og:url" content="https://neonframewebdev.github.io/partners-pub/">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+<link rel="preload" as="image" href="assets/interior_4_group.jpg" fetchpriority="high">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400&family=Lato:wght@400;700&display=swap" as="style">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400&family=Lato:wght@400;700&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400&family=Lato:wght@400;700&display=swap"></noscript>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- LOADER -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader__inner">
+    <img src="assets/logo.png" alt="Partner's Pub and Grill badge" class="loader__badge" width="160" height="160">
+    <div class="loader__bar"><div class="loader__progress"></div></div>
+  </div>
+</div>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#hero" class="nav__brand" aria-label="Partner's Pub and Grill home">
+      <img src="assets/logo.png" alt="Partner's Pub logo" class="nav__logo" width="48" height="48">
+    </a>
+    <nav class="nav__links" id="navLinks" aria-label="Site navigation">
+      <a href="#about">About</a>
+      <a href="#menu">Menu</a>
+      <a href="#specials">Specials</a>
+      <a href="#events">Events</a>
+      <a href="#staff">Staff</a>
+      <a href="#contact">Contact</a>
+      <a href="#contact" class="nav__cta">Visit Us</a>
+    </nav>
+    <button class="nav__burger" id="navBurger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero__bg" style="background-image:url('assets/interior_4_group.jpg')" aria-hidden="true"></div>
+  <div class="hero__overlay" aria-hidden="true"></div>
+  <div class="hero__inner">
+    <div class="hero__rule" aria-hidden="true"></div>
+    <h1 class="hero__headline">Stevens Point's favorite local tavern since 1977.</h1>
+    <p class="hero__sub">Good drinks, good food, and a crowd that knows your name. Open 365 days a year.</p>
+    <div class="hero__cta">
+      <a href="#menu" class="btn btn--amber">See the Menu</a>
+      <a href="#specials" class="btn btn--ghost">View Weekly Specials</a>
+    </div>
+  </div>
+  <div class="hero__badge-wrap" aria-hidden="true">
+    <svg class="hero__est-badge" viewBox="0 0 120 120" width="110" height="110" aria-label="Established 1977">
+      <circle cx="60" cy="60" r="56" fill="#2d5a27" stroke="#e7a624" stroke-width="4"/>
+      <circle cx="60" cy="60" r="48" fill="none" stroke="#e7a624" stroke-width="1.5" stroke-dasharray="4 3"/>
+      <text x="60" y="44" text-anchor="middle" font-family="Arvo, serif" font-size="9" fill="#f5f0e8" letter-spacing="3">EST.</text>
+      <text x="60" y="70" text-anchor="middle" font-family="Arvo, serif" font-size="22" font-weight="700" fill="#e7a624">1977</text>
+      <text x="60" y="85" text-anchor="middle" font-family="Lato, sans-serif" font-size="7" fill="#f5f0e8" letter-spacing="1.5">STEVENS POINT WI</text>
+    </svg>
+  </div>
+</section>
+
+<!-- STATS BAR -->
+<section class="stats" aria-label="Quick facts">
+  <div class="stats__inner">
+    <div class="stat">
+      <div class="stat__num" data-count="1977" data-prefix="Est. " data-suffix="" data-raw="Est. 1977">Est. 1977</div>
+      <p class="stat__label">Open Since</p>
+    </div>
+    <div class="stat">
+      <div class="stat__num" data-count="14" data-suffix="">0</div>
+      <p class="stat__label">HD TVs</p>
+    </div>
+    <div class="stat">
+      <div class="stat__num" data-count="365" data-suffix="">0</div>
+      <p class="stat__label">Days a Year</p>
+    </div>
+    <div class="stat">
+      <div class="stat__num" data-count="4" data-decimal=".4" data-suffix=" Stars">0</div>
+      <p class="stat__label">Google Rating</p>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section section--cream rise" id="about" aria-labelledby="about-heading">
+  <div class="section__inner">
+    <div class="about">
+      <div class="about__copy">
+        <p class="eyebrow">Since 1977</p>
+        <h2 id="about-heading">A Stanley Street institution.</h2>
+        <p>Partner's Pub has been one of Stevens Point's favorite local taverns since 1977. That's nearly 50 years of Friday fish fries, birthday celebrations, and trivia nights at the same address on Stanley Street.</p>
+        <p>We pour New Glarus, Stevens Point Brewery, Leinenkugels, and High Life on tap. The menu runs from cheese curds to the Gut Buster. Prices are still in single digits on most starters. Everyone feels welcome here, local professionals, UWSP students, and regulars who've been coming in since the late 80s.</p>
+        <p>Come in and stay a while.</p>
+        <svg class="about__badge-deco" viewBox="0 0 30 30" width="30" height="30" aria-hidden="true">
+          <circle cx="15" cy="15" r="13" fill="#2d5a27" stroke="#e7a624" stroke-width="2"/>
+          <text x="15" y="19" text-anchor="middle" font-family="Arvo, serif" font-size="8" font-weight="700" fill="#e7a624">PP</text>
+        </svg>
+      </div>
+      <div class="about__photo">
+        <div class="about__img-wrap">
+          <img src="assets/about_me.jpg" alt="Wisconsin tap handles: New Glarus, Stevens Point Brewery, Miller, Leinenkugels" loading="lazy" width="480" height="600">
+          <div class="about__tint" aria-hidden="true"></div>
+        </div>
+        <p class="about__caption"><em>Wisconsin on draft.</em></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WEEKLY SPECIALS -->
+<section class="section section--dark rise" id="specials" aria-labelledby="specials-heading">
+  <div class="section__inner">
+    <p class="eyebrow eyebrow--amber">Updated Weekly</p>
+    <h2 id="specials-heading" class="section__title--light">This Week's Specials</h2>
+    <div class="specials__tabs" id="specialsTabs" role="tablist" aria-label="Day of week specials">
+      <button class="specials__tab" role="tab" data-day="0" aria-selected="false" aria-controls="panel-0">Sun</button>
+      <button class="specials__tab" role="tab" data-day="1" aria-selected="false" aria-controls="panel-1">Mon</button>
+      <button class="specials__tab" role="tab" data-day="2" aria-selected="false" aria-controls="panel-2">Tue</button>
+      <button class="specials__tab" role="tab" data-day="3" aria-selected="false" aria-controls="panel-3">Wed</button>
+      <button class="specials__tab" role="tab" data-day="4" aria-selected="false" aria-controls="panel-4">Thu</button>
+      <button class="specials__tab" role="tab" data-day="5" aria-selected="false" aria-controls="panel-5">Fri</button>
+      <button class="specials__tab" role="tab" data-day="6" aria-selected="false" aria-controls="panel-6">Sat</button>
+    </div>
+    <!-- Mobile accordion toggle -->
+    <div class="specials__accordion-header" id="accordionToggle" aria-expanded="true">
+      <span id="accordionDayLabel">Today's Specials</span>
+      <span class="accordion__chevron" aria-hidden="true"></span>
+    </div>
+    <div class="specials__panels" id="specialsPanels">
+      <div class="specials__panel" role="tabpanel" id="panel-0" data-day="0">
+        <div class="specials__row">
+          <div class="specials__drink">
+            <p class="specials__label">Drinks</p>
+            <p>$1.00 Off Bloody Marys</p>
+            <p>$4.00 Double Ketel One Mixers</p>
+          </div>
+        </div>
+      </div>
+      <div class="specials__panel" role="tabpanel" id="panel-1" data-day="1">
+        <div class="specials__row">
+          <div class="specials__drink">
+            <p class="specials__label">Drinks</p>
+            <p>$3.00 Double Rail Mixers</p>
+            <p>$4.00 Double Captain Morgan Mixers</p>
+            <p>$2.00 Domestic Pints</p>
+          </div>
+          <div class="specials__food">
+            <p class="specials__label">Food</p>
+            <p>$8.99 Burger and Fries</p>
+          </div>
+        </div>
+      </div>
+      <div class="specials__panel" role="tabpanel" id="panel-2" data-day="2">
+        <div class="specials__row">
+          <div class="specials__drink">
+            <p class="specials__label">Drinks</p>
+            <p>$4.00 Double Jack Daniels Mixers</p>
+            <p>$2.50 Wisconsin Craft Mugs</p>
+          </div>
+          <div class="specials__food">
+            <p class="specials__label">Food</p>
+            <p>$7.99 Hot Beef Sandwich</p>
+            <p>$0.35 Mini Tacos</p>
+          </div>
+        </div>
+        <p class="specials__event">Trivia 7-9pm (America's Pub Quiz, gift certificate prizes)</p>
+      </div>
+      <div class="specials__panel" role="tabpanel" id="panel-3" data-day="3">
+        <div class="specials__row">
+          <div class="specials__drink">
+            <p class="specials__label">Drinks</p>
+            <p>$3.50 Double Malibu Mixers</p>
+            <p>$2.50 Craft Bottles</p>
+            <p>$1.00 Domestic Bottles</p>
+          </div>
+          <div class="specials__food">
+            <p class="specials__label">Food</p>
+            <p>$7.99 Wings and Fries</p>
+          </div>
+        </div>
+        <p class="specials__event">DJ Wally from Kryptonite Entertainment</p>
+      </div>
+      <div class="specials__panel" role="tabpanel" id="panel-4" data-day="4">
+        <div class="specials__row">
+          <div class="specials__drink">
+            <p class="specials__label">Drinks</p>
+            <p>$6.00 Liter Long Islands</p>
+            <p>$4.00 Double Seagrams 7 Mixers</p>
+          </div>
+          <div class="specials__food">
+            <p class="specials__label">Food</p>
+            <p>$8.99 Buffalo Chicken Sandwich and Fries</p>
+          </div>
+        </div>
+        <p class="specials__event">Karaoke with Dunn Entertainment, 9pm</p>
+      </div>
+      <div class="specials__panel" role="tabpanel" id="panel-5" data-day="5">
+        <div class="specials__fish-fry" aria-label="Fish Fry Friday">
+          <span class="specials__fish-badge">Fish Fry Friday</span>
+        </div>
+        <div class="specials__row">
+          <div class="specials__drink">
+            <p class="specials__label">Drinks</p>
+            <p>$4.25 Double Jameson Mixers</p>
+            <p>$4.00 Double Tito's Mixers</p>
+            <p>$1.75 Pabst Cans (7pm-close)</p>
+          </div>
+        </div>
+      </div>
+      <div class="specials__panel" role="tabpanel" id="panel-6" data-day="6">
+        <div class="specials__row">
+          <div class="specials__drink">
+            <p class="specials__label">Drinks</p>
+            <p>$3.75 Double Southern Comfort Mixers</p>
+            <p>$3.50 Wisconsin Craft Pints</p>
+            <p>$3.00 Hard Seltzers</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MENU -->
+<section class="section section--cream rise" id="menu" aria-labelledby="menu-heading">
+  <div class="section__inner">
+    <p class="eyebrow">From the Kitchen</p>
+    <h2 id="menu-heading">The Greatest Hits</h2>
+    <div class="menu-cards" id="menuCards">
+      <div class="menu-card">
+        <div class="menu-card__img-wrap">
+          <img src="assets/dish_1_curds.jpg" alt="Cheddar Cheese Curds" loading="lazy" width="400" height="300">
+        </div>
+        <div class="menu-card__body">
+          <h3 class="menu-card__name">Cheddar Cheese Curds</h3>
+          <p class="menu-card__price">$3.99</p>
+        </div>
+      </div>
+      <div class="menu-card">
+        <div class="menu-card__img-wrap">
+          <img src="assets/dish_2_burger.jpg" alt="Cheeseburger" loading="lazy" width="400" height="300">
+        </div>
+        <div class="menu-card__body">
+          <h3 class="menu-card__name">Cheeseburger</h3>
+          <p class="menu-card__price">$4.49</p>
+        </div>
+      </div>
+      <div class="menu-card">
+        <div class="menu-card__img-wrap">
+          <img src="assets/dish_3_wings.jpg" alt="Chicken Wings" loading="lazy" width="400" height="300">
+        </div>
+        <div class="menu-card__body">
+          <h3 class="menu-card__name">Chicken Wings</h3>
+          <p class="menu-card__price">$6.49</p>
+        </div>
+      </div>
+      <div class="menu-card">
+        <div class="menu-card__img-wrap">
+          <img src="assets/dish_4_vienna.jpg" alt="Vienna Beef Stacker" loading="lazy" width="400" height="300">
+        </div>
+        <div class="menu-card__body">
+          <h3 class="menu-card__name">Vienna Beef Stacker</h3>
+          <p class="menu-card__price">$5.99</p>
+        </div>
+      </div>
+      <div class="menu-card">
+        <div class="menu-card__img-wrap menu-card__img-wrap--amber">
+          <p class="menu-card__fish-text">Beer Battered<br>Forkless Fish Fry</p>
+        </div>
+        <div class="menu-card__body">
+          <h3 class="menu-card__name">Beer Battered Forkless Fish Fry</h3>
+          <p class="menu-card__price">$5.99</p>
+        </div>
+      </div>
+      <div class="menu-card">
+        <div class="menu-card__img-wrap">
+          <img src="assets/dish_6_cbr.jpg" alt="Gut Buster Burger" loading="lazy" width="400" height="300">
+        </div>
+        <div class="menu-card__body">
+          <h3 class="menu-card__name">Gut Buster</h3>
+          <p class="menu-card__price">$6.99</p>
+        </div>
+      </div>
+    </div>
+    <div class="menu-full-toggle">
+      <button class="btn btn--outline" id="menuToggleBtn" aria-expanded="false" aria-controls="fullMenu">See the Full Menu</button>
+    </div>
+    <div class="full-menu" id="fullMenu" hidden>
+      <div class="full-menu__section">
+        <h3 class="full-menu__heading">Kick Offs</h3>
+        <ul class="full-menu__list">
+          <li><span>Cheddar Cheese Curds (orange or white)</span><span>$3.99</span></li>
+          <li><span>Mozzarella Cheese Sticks</span><span>$3.49</span></li>
+          <li><span>Jalapeno Poppers</span><span>$3.49</span></li>
+          <li><span>Onion Rings</span><span>$2.99</span></li>
+          <li><span>Mushrooms</span><span>$2.99</span></li>
+          <li><span>Crinkle or Criss Cut Fries</span><span>$1.99</span></li>
+          <li><span>Mini Tacos</span><span>$3.99</span></li>
+          <li><span>Cheese Sampler Basket</span><span>$7.49</span></li>
+          <li><span>Veggie Sampler Basket</span><span>$7.49</span></li>
+        </ul>
+      </div>
+      <div class="full-menu__section">
+        <h3 class="full-menu__heading">Soups and Salads</h3>
+        <ul class="full-menu__list">
+          <li><span>Chili</span><span>$3.99</span></li>
+          <li><span>Soup of the Day</span><span>$3.49</span></li>
+          <li><span>Buffalo Chicken Salad</span><span>$7.49</span></li>
+          <li><span>Chicken Caesar Salad</span><span>$7.49</span></li>
+        </ul>
+      </div>
+      <div class="full-menu__section">
+        <h3 class="full-menu__heading">Wraps</h3>
+        <ul class="full-menu__list">
+          <li><span>Chicken Bacon Ranch</span><span>$7.49</span></li>
+          <li><span>Italian Chicken</span><span>$6.99</span></li>
+          <li><span>Crispy Buffalo Chicken</span><span>$7.49</span></li>
+          <li><span>Garden Wrap</span><span>$6.49</span></li>
+          <li><span>Chicken Caesar</span><span>$6.99</span></li>
+        </ul>
+      </div>
+      <div class="full-menu__section">
+        <h3 class="full-menu__heading">Chicken</h3>
+        <ul class="full-menu__list">
+          <li><span>Grilled Chicken Breast</span><span>$5.49</span></li>
+          <li><span>Grilled Chicken Bacon Ranch</span><span>$5.49</span></li>
+          <li><span>Buffalo Chicken Sandwich</span><span>$5.99</span></li>
+          <li><span>Chicken Tenders</span><span>$6.49</span></li>
+          <li><span>Chicken Wings</span><span>$6.49</span></li>
+        </ul>
+      </div>
+      <div class="full-menu__section">
+        <h3 class="full-menu__heading">All Stars</h3>
+        <ul class="full-menu__list">
+          <li><span>Beer Battered Forkless Fish Fry</span><span>$5.99</span></li>
+          <li><span>Tenderloin Steak Sandwich</span><span>$7.99</span></li>
+          <li><span>Vienna Beef Stacker</span><span>$5.99</span></li>
+          <li><span>Fish Sandwich</span><span>$4.49</span></li>
+          <li><span>1/4 lb. Chicago Hot Dog</span><span>$5.49</span></li>
+          <li><span>Pizza Burger</span><span>$4.49</span></li>
+          <li><span>Shrimp Basket</span><span>$6.99</span></li>
+        </ul>
+      </div>
+      <div class="full-menu__section">
+        <h3 class="full-menu__heading">Burgers</h3>
+        <ul class="full-menu__list">
+          <li><span>Cheeseburger</span><span>$4.49</span></li>
+          <li><span>Bacon Cheeseburger</span><span>$5.49</span></li>
+          <li><span>Mushroom and Swiss</span><span>$5.49</span></li>
+          <li><span>Herb and Garlic Turkey Burger</span><span>$4.99</span></li>
+          <li><span>Brat Burger</span><span>$5.49</span></li>
+          <li><span>Gut Buster</span><span>$6.99</span></li>
+        </ul>
+      </div>
+      <div class="full-menu__section">
+        <h3 class="full-menu__heading">Power Play Pizzas</h3>
+        <ul class="full-menu__list">
+          <li><span>Cheese Pizza</span><span>$7.99</span></li>
+          <li><span>Cheese Fries</span><span>$7.99</span></li>
+          <li><span>Additional toppings</span><span>$1.25</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EVENTS -->
+<section class="section section--dark rise" id="events" aria-labelledby="events-heading">
+  <div class="section__inner">
+    <p class="eyebrow eyebrow--amber">Every Week</p>
+    <h2 id="events-heading" class="section__title--light">Something's Always Happening.</h2>
+    <div class="events-grid">
+      <div class="event-tile">
+        <div class="event-tile__img-wrap">
+          <img src="assets/event_1_trivia.jpg" alt="Tuesday Trivia Night at Partner's Pub" loading="lazy" width="640" height="360">
+          <div class="event-tile__overlay" aria-hidden="true"></div>
+        </div>
+        <div class="event-tile__body">
+          <h3 class="event-tile__name">Trivia Tuesdays</h3>
+          <p class="event-tile__time">Every Tuesday, 7-9pm</p>
+        </div>
+      </div>
+      <div class="event-tile">
+        <div class="event-tile__img-wrap">
+          <img src="assets/event_2_dj.jpg" alt="Wednesday DJ Night at Partner's Pub" loading="lazy" width="640" height="360">
+          <div class="event-tile__overlay" aria-hidden="true"></div>
+        </div>
+        <div class="event-tile__body">
+          <h3 class="event-tile__name">Wednesday DJ Night</h3>
+          <p class="event-tile__time">Every Wednesday</p>
+        </div>
+      </div>
+      <div class="event-tile">
+        <div class="event-tile__img-wrap">
+          <img src="assets/event_3_karaoke.jpg" alt="Thursday Karaoke Night at Partner's Pub" loading="lazy" width="640" height="360">
+          <div class="event-tile__overlay" aria-hidden="true"></div>
+        </div>
+        <div class="event-tile__body">
+          <h3 class="event-tile__name">Karaoke Thursdays</h3>
+          <p class="event-tile__time">Every Thursday, 9pm</p>
+        </div>
+      </div>
+      <div class="event-tile">
+        <div class="event-tile__img-wrap">
+          <img src="assets/event_5_volleyball.jpg" alt="Summer Volleyball League at Partner's Pub" loading="lazy" width="640" height="360">
+          <div class="event-tile__overlay" aria-hidden="true"></div>
+        </div>
+        <div class="event-tile__body">
+          <h3 class="event-tile__name">Summer Volleyball League</h3>
+          <p class="event-tile__time">Co-ed. Six leagues, Sunday-Thursday</p>
+        </div>
+      </div>
+    </div>
+    <div class="events-annual">
+      <h3 class="events-annual__title">Annual Events</h3>
+      <ul class="events-annual__list">
+        <li>Busch Light Bash. Once a year, $1 Busch Lights all day.</li>
+        <li>Golf Outing. Annual charity fundraiser with food and raffles.</li>
+        <li>K9 Donation Event. Annual charity drive benefiting local K9 units.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- BIRTHDAY HQ -->
+<section class="birthday-hq rise" id="birthday" aria-labelledby="bday-heading">
+  <div class="birthday-hq__inner">
+    <h2 id="bday-heading" class="birthday-hq__headline">Stevens Point's Official Birthday Headquarters.</h2>
+    <p class="birthday-hq__sub">Come in on your birthday and enjoy free Domestic Taps and Rail Mixers. Just bring a valid ID.</p>
+    <a href="tel:+17155440661" class="btn btn--dark">Plan Your Birthday Here</a>
+  </div>
+</section>
+
+<!-- STAFF -->
+<section class="section section--cream rise" id="staff" aria-labelledby="staff-heading">
+  <div class="section__inner">
+    <p class="eyebrow">The People Behind the Bar</p>
+    <h2 id="staff-heading">Your Bartenders</h2>
+    <div class="staff-grid">
+      <div class="staff-card">
+        <div class="staff-card__avatar-wrap">
+          <img src="assets/staff_1.jpg" alt="Partner's Pub bartender" loading="lazy" width="120" height="120">
+        </div>
+      </div>
+      <div class="staff-card">
+        <div class="staff-card__avatar-wrap">
+          <img src="assets/staff_2.jpg" alt="Partner's Pub bartender" loading="lazy" width="120" height="120">
+        </div>
+      </div>
+      <div class="staff-card">
+        <div class="staff-card__avatar-wrap">
+          <img src="assets/staff_3.jpg" alt="Partner's Pub bartender" loading="lazy" width="120" height="120">
+        </div>
+      </div>
+      <div class="staff-card">
+        <div class="staff-card__avatar-wrap">
+          <img src="assets/staff_4.jpg" alt="Partner's Pub bartender" loading="lazy" width="120" height="120">
+        </div>
+      </div>
+      <div class="staff-card">
+        <div class="staff-card__avatar-wrap">
+          <img src="assets/staff_alexis.jpg" alt="Alexis" loading="lazy" width="120" height="120">
+        </div>
+        <p class="staff-card__name">Alexis</p>
+      </div>
+      <div class="staff-card">
+        <div class="staff-card__avatar-wrap">
+          <img src="assets/staff_chelsey.jpg" alt="Chelsey" loading="lazy" width="120" height="120">
+        </div>
+        <p class="staff-card__name">Chelsey</p>
+      </div>
+      <div class="staff-card">
+        <div class="staff-card__avatar-wrap">
+          <img src="assets/staff_dana.jpg" alt="Dana" loading="lazy" width="120" height="120">
+        </div>
+        <p class="staff-card__name">Dana</p>
+      </div>
+      <div class="staff-card">
+        <div class="staff-card__avatar-wrap">
+          <img src="assets/staff_elle.jpg" alt="Elle" loading="lazy" width="120" height="120">
+        </div>
+        <p class="staff-card__name">Elle</p>
+      </div>
+      <div class="staff-card">
+        <div class="staff-card__avatar-wrap">
+          <img src="assets/staff_grace.jpg" alt="Grace" loading="lazy" width="120" height="120">
+        </div>
+        <p class="staff-card__name">Grace</p>
+      </div>
+      <div class="staff-card">
+        <div class="staff-card__avatar-wrap">
+          <img src="assets/staff_haleyD.jpg" alt="Haley D." loading="lazy" width="120" height="120">
+        </div>
+        <p class="staff-card__name">Haley D.</p>
+      </div>
+      <div class="staff-card">
+        <div class="staff-card__avatar-wrap">
+          <img src="assets/staff_kersten.jpg" alt="Kersten" loading="lazy" width="120" height="120">
+        </div>
+        <p class="staff-card__name">Kersten</p>
+      </div>
+      <div class="staff-card">
+        <div class="staff-card__avatar-wrap">
+          <img src="assets/staff_madalyn.jpg" alt="Madalyn" loading="lazy" width="120" height="120">
+        </div>
+        <p class="staff-card__name">Madalyn</p>
+      </div>
+      <div class="staff-card">
+        <div class="staff-card__avatar-wrap">
+          <img src="assets/staff_maria.jpg" alt="Maria" loading="lazy" width="120" height="120">
+        </div>
+        <p class="staff-card__name">Maria</p>
+      </div>
+      <div class="staff-card">
+        <div class="staff-card__avatar-wrap">
+          <img src="assets/staff_matt.jpg" alt="Matt" loading="lazy" width="120" height="120">
+        </div>
+        <p class="staff-card__name">Matt</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="section section--dark rise" id="reviews" aria-labelledby="reviews-heading">
+  <div class="section__inner">
+    <p class="eyebrow eyebrow--amber">What People Say</p>
+    <h2 id="reviews-heading" class="section__title--light">4.4 Stars and Counting</h2>
+    <div class="reviews-grid">
+      <div class="review-card">
+        <div class="review-card__quote-mark" aria-hidden="true">&ldquo;</div>
+        <blockquote>
+          <p class="review-card__text">We always have a good time when we visit Partner's. The bartending and wait staff are great.</p>
+          <footer class="review-card__source">TripAdvisor Reviewer</footer>
+        </blockquote>
+      </div>
+      <div class="review-card">
+        <div class="review-card__quote-mark" aria-hidden="true">&ldquo;</div>
+        <blockquote>
+          <p class="review-card__text">Friendly bartenders, pretty good food. Lots of fun, sports TVs, etc.</p>
+          <footer class="review-card__source">TripAdvisor Reviewer</footer>
+        </blockquote>
+      </div>
+      <div class="review-card">
+        <div class="review-card__quote-mark" aria-hidden="true">&ldquo;</div>
+        <blockquote>
+          <p class="review-card__text">I haven't been there since college in the late 80's. It's still a great place with a great atmosphere.</p>
+          <footer class="review-card__source">TripAdvisor Reviewer</footer>
+        </blockquote>
+      </div>
+      <div class="review-card">
+        <div class="review-card__quote-mark" aria-hidden="true">&ldquo;</div>
+        <blockquote>
+          <p class="review-card__text">Good drinks, good food, and a crowd that knows your name.</p>
+          <footer class="review-card__source">Google Reviewer</footer>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT / HOURS -->
+<section class="section section--cream rise" id="contact" aria-labelledby="contact-heading">
+  <div class="section__inner">
+    <p class="eyebrow">Find Us</p>
+    <h2 id="contact-heading">Hours &amp; Location</h2>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <table class="hours-table" aria-label="Hours of operation">
+          <tbody>
+            <tr><th scope="row">Mon - Thu</th><td>10am - 2am</td></tr>
+            <tr><th scope="row">Fri - Sat</th><td>10am - 2:30am</td></tr>
+            <tr><th scope="row">Sun</th><td>10am - 2am</td></tr>
+          </tbody>
+        </table>
+        <p class="hours-callout">Open 365 Days a Year</p>
+        <address class="contact-details">
+          <p>2600 Stanley St., Stevens Point, WI 54481</p>
+          <p><a href="tel:+17155440661">(715) 544-0661</a></p>
+        </address>
+        <a href="tel:+17155440661" class="btn btn--amber">Call Us</a>
+      </div>
+      <div class="contact-map">
+        <iframe
+          title="Partner's Pub and Grill location map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2905.1234567890123!2d-89.57456789012345!3d44.52345678901234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8803b1234567890%3A0xabcdef1234567890!2s2600%20Stanley%20St%2C%20Stevens%20Point%2C%20WI%2054481!5e0!3m2!1sen!2sus!4v1234567890123"
+          width="100%"
+          height="360"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer" id="footer">
+  <div class="footer__inner">
+    <a href="#hero" class="footer__brand" aria-label="Partner's Pub and Grill home">
+      <img src="assets/logo.png" alt="Partner's Pub and Grill logo" width="80" height="80" loading="lazy">
+    </a>
+    <p class="footer__tagline">Open 365 days a year.</p>
+    <p class="footer__address">2600 Stanley St., Stevens Point, WI 54481</p>
+    <p class="footer__phone"><a href="tel:+17155440661">(715) 544-0661</a></p>
+    <div class="footer__links">
+      <a href="https://www.facebook.com/PartnersPubAndGrill/" target="_blank" rel="noopener noreferrer" aria-label="Partner's Pub on Facebook">Facebook</a>
+    </div>
+    <p class="footer__copy">&copy; 2026 Partner's Pub and Grill. All rights reserved.</p>
+  </div>
+</footer>
+
+<script type="module" src="main.js"></script>
+</body>
+</html>
